@@ -10,6 +10,29 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>source-rest-base</artifactId>
-
+    <dependencies>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>source-controller-base</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>source-jpa-base</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <!--Swagger -->
+        <dependency>
+            <groupId>io.swagger.core.v3</groupId>
+            <artifactId>swagger-annotations</artifactId>
+            <version>${io.swagger.core.v3.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>vn.gdtsolutions</groupId>
+            <artifactId>source-base</artifactId>
+            <version>1.0.0</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 
 </project>

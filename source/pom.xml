@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>TestCodeMicro</artifactId>
+        <groupId>vn.com.ezkoo</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>vn.com.ezkoo</groupId>
+    <artifactId>source-land</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>source-enums-base</module>
+        <module>source-dtos-base</module>
+        <module>source-utils-base</module>
+        <module>source-service-base</module>
+        <module>source-model-base</module>
+        <module>source-base</module>
+        <module>source-entity-base</module>
+        <module>source-jpa-base</module>
+        <module>source-rest-base</module>
+        <module>source-file-base</module>
+        <module>source-controller-base</module>
+    </modules>
+
+
+</project>
