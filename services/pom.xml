@@ -8,8 +8,16 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
+    <groupId>vn.com.ezkoo</groupId>
     <artifactId>services</artifactId>
-
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>account-service</module>
+    </modules>
+    <properties>
+        <project.model.groupId>vn.ezkoo.models</project.model.groupId>
+        <project.model.version>1.0.0</project.model.version>
+    </properties>
 
 </project>

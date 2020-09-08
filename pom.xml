@@ -47,8 +47,6 @@
         <module>models</module>
         <module>services</module>
         <module>server-rest-api</module>
-        <module>source-service-base</module>
-        <module>source-model-base</module>
     </modules>
     <repositories>
         <repository>
